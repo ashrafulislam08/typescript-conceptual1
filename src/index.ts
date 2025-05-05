@@ -35,7 +35,7 @@ let anyVar: number = 1;
 // Non-Primitive
 
 type Education = {
-    institution: string;
+    institution: "University" | "Diploma" | "College" | "School";
     level: string
 }
 
@@ -54,4 +54,4 @@ const obj: TObj = {
         level: 'undergrad',
     }
 }
-console.log(obj)
+
